@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <main class="hide">
+        <header>
+            <div>
+                <img class="logo" src="pics/download.jpg">
+                <h1 class="title">Pinnacle Institute Of Management And Science</h1>
+            
+                <p class="quote">Disipline - Hardwork - Consistency</p>
+            </div>
+        </header>
+    
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="result.html">Results</a>
+            <a href="admission.html">Admission</a>
+            <a href="staffs.html">Staffs</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        
+        <section id="home">
+          <h2> <span style="font-size: 15px;">Welcome To </span>Pinnacle Institute Of Management And Science</h2>
+          <p>Pinnacle Institute recognizes that human talent flourishes most readily in facilities where the most effective tools exist. We believe that it is the teacher that makes the difference, not just the classroom. We pride ourselves with a perfect blend of curriculum, co-curricular and pro-academic activities. Our teachers are motivated and our students inspired. At Mahesh it is not just about mentoring but motivating. Not just educating but evolving. We are iconic, innovative and inclusive in our approach. Here inspiration for learning comes from within.</p> 
+          <ul>
+            <li>Pinnacle Education Trust, was set up to endow high quality education and learning in Karnataka.</li>
+            <li>Our aim is to facilitate good education through methodical training of students.</li>
+            <li>Our endeavour is to bring to the students in Karnataka, the best teachers of every subject trained in the latest trends in teaching methodology.</li>
+            <li>The institution's infrastructure is at pace with the changing needs of the student population.</li>
+            <li>To be on par with the scientific and technological advancements, parallel expansion of infrastructure in the form of laboratories, libraries and other learning resources such as computers, e-resources and Wi-Fi facilities are initiated.</li>
+          </ul>
+           
+          Free Coaching
+          Free Coaching for SC & OBC Affiliation
+          The College is affiliated to the Department of Pre-University Education, Government of Karnataka, India.
+          <div class="videoDiv">
+            <video class="video" src="chairman.mp4" autoplay="" muted="" loop=""></video>
+            <div class="resultdiv">
+                <h1>Mr. Rajappa</h1>
+                <h3 style="margin-top: 0px; color: rgb(91, 91, 91);">Chairman</h3>
+                
+                <span class="para">
+                    Welcome to the <strong>Pinnacle Institute</strong> Online and to our community of Parents, Teachers and Students. It is a great privilege for me to introduce our institution to you online. For Mahesh College it has been a trail blazing journey from 20002 till date. The academic excellence of our students and the exuberance of our lively teachers and staff has been unmatched year upon year. In 2020-21 Mahesh PU College is the educational home to over 1500 students in Science, Commerce, and Computer Science. We are a top rung college known for our academic excellence which has been achieved within a short period of time since our inception.
+                </span>
+            </div>
+          </div>
+          <div class="videoDiv">
+            <video class="video" src="princi.mp4" autoplay="" muted="" loop=""></video>
+            <div class="resultdiv">
+                <h1>Mr. KUMARAPPA</h1>
+                <h3 style="margin-top: 0px; color: rgb(91, 91, 91);">Principal</h3>
+                
+                <span class="para">
+                    A few years ago, there was an attempt to encapsulate and treasure down in the burrows of the earth, all the available accrued knowledge of this globe, for future generations to explore and discover. Future generations may or may not be interested in such a time capsule from the past.
+                    At Mahesh PU College, the academic fraternity is an active community of learners who pursue knowledge as an active and dynamic phenomenon with infinite and immense possibilities. We invest in the younger generations to instill in them the passion for knowledge and the seeds of research and learning. We strive to build a community of learners and teachers who believe that learning is not possible without teaching and teaching is not at all possible without learning.
+                </span>
+            </div>
+          </div>
+        </section>
+        <footer>
+            <p>&copy; 2024 Pinnacle institute. All rights reserved.</p>
+        </footer>
+    </main>
+    
+    <script>
+       
+        let con = document.querySelector("main");
+
+        input= prompt("Enter Login Password");
+        if(input === "@myselfnandan"){
+            con.classList.remove("hide");
+        }
+        else{
+            alert("Try Again!");
+        }
+    </script>
+</body>
+</html>
